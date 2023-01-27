@@ -1,0 +1,77 @@
+body{
+    background-image: url(../images/bg.gif);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box{
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 15%;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    
+    
+}
+.text{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top:auto;
+    margin-bottom: -15px;
+    opacity: 1;
+    filter: brightness(1.5);
+    text-shadow: 4px 4px 10px rgba(26, 218, 186, 1);
+    color: aliceblue;
+
+
+
+}
+#current-time{
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.8;
+    filter: brightness(0.9);
+    text-shadow: 4px 4px 10px rgba(26, 218, 186, 1);
+    color: aliceblue;
+}
+#current-time:hover{
+    opacity: 1;
+    filter: brightness(1.1);
+}
+
+.text2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align:center;
+    margin-top:auto;
+    margin-bottom: -15px;
+    opacity: 1;
+    filter: brightness(1.5);
+    text-shadow: 4px 4px 10px rgba(26, 218, 186, 1);
+    color: aliceblue;}
+
+#date-today{
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 20px;
+    opacity: 0.8;
+    filter: brightness(0.9);
+    text-shadow: 4px 4px 10px rgba(26, 218, 186, 1);
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    margin-left: 50px;
+    }
+#date-today:hover{
+        opacity: 1;
+        filter: brightness(1.1);
+    }
